@@ -1,10 +1,12 @@
-## Flutter - Bubble Animated Tabbar
+# Flutter - Bubble Animated Tabbar
 
-### Preview
+### If this project has helped you out, please support us with a star. :star2:
+
+## Preview
 
 ![Alt Text](tab.gif)
 
-### Page View
+## Page View
 
 ![Alt Text](page-1.gif)
 
@@ -12,7 +14,7 @@
     img{ border:1px solid black }
 </style>
 
-### Getting Started
+## Getting Started
 
 ```yamlgit
 dependencies:
@@ -20,7 +22,7 @@ dependencies:
 	bubble_animated_tabbar: 1.0.2
 ```
 
-### Usage Example
+## Usage Example
 
 Adding the widget
 
