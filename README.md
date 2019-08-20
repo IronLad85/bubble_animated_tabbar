@@ -6,7 +6,7 @@
 
 ### Page View
 
-![Alt Text](page.gif)
+![Alt Text](page-1.gif)
 
 <style type="text/css">
     img{ border:1px solid black }
