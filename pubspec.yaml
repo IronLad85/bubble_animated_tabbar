@@ -1,8 +1,8 @@
 name: bubble_animated_tabbar
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+description: A bubble animated tabbar for bottom navigation on flutter apps 
+version: 1.0.2
+author: Siddharth V.S <siddharthsakre@gmail.com>
+homepage: https://github.com/IronLad85/bubble_animated_tabbar
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

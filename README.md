@@ -1,18 +1,27 @@
 ## Flutter - Bubble Animated Tabbar
 
-###Preview
+### Preview
+
 ![Alt Text](tab.gif)
 
-###Page View
+### Page View
+
 ![Alt Text](page.gif)
 
+<style type="text/css">
+    img{ border:1px solid black }
+</style>
+
 ### Getting Started
-```yaml
+
+```yamlgit
 dependencies:
 	...
-	bottom_navy_bar: ^3.0.0
+	bubble_animated_tabbar: 1.0.2
 ```
-###Usage Example
+
+### Usage Example
+
 Adding the widget
 
 ```dart
@@ -40,20 +49,21 @@ List<Map> children = [
       'textColor': Color.fromRGBO(6, 125, 111, 1),
     },
   ];
-  
+
   getBoxDecoration() {
-	 return BoxDecoration(
-        color: Colors.white,
-        boxShadow: [
-			new BoxShadow(
-				color: Color.fromRGBO(0, 0, 0, 0.1), 
-				blurRadius: 1.0, 
-				spreadRadius: 1.0)
-			]
-		);
+    return BoxDecoration(
+      color: Colors.white,
+      boxShadow: [
+        new BoxShadow(
+          color: Color.fromRGBO(0, 0, 0, 0.1),
+            blurRadius: 1.0,
+            spreadRadius: 1.0
+          )
+        ]
+    );
   }
 
-// Add required properties for Animated TabBar 
+// Add required properties for Animated TabBar
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -69,23 +79,23 @@ List<Map> children = [
   }
 ```
 
-##AnimatedTabbar Properties
+## AnimatedTabbar Properties
 
-| Property | Type  | Required  | Default Value  |
-| ------------ | ------------ | ------------ | ------------ |
-| containerDecoration  | BoxDecoration  | NO  |  --  |
-| padding  | EdgeInsets  | NO  | --  |
-| onTap  | Function  | Yes  | --  |
-| children  | Array  < Map >  | Yes  | --  |
+| Property            | Type          | Required | Default Value |
+| ------------------- | ------------- | -------- | ------------- |
+| containerDecoration | BoxDecoration | NO       | --            |
+| padding             | EdgeInsets    | NO       | --            |
+| onTap               | Function      | Yes      | --            |
+| children            | Array < Map > | Yes      | --            |
 
+## Tab Properties
 
-##Tab Properties
-| Property | Type  | Required  | Default Value  |
-| ------------ | ------------ | ------------ | ------------ |
-| icon  | IconData  | YES  | --   |
-| iconSize  | Int  | NO  | 20   |
-| title  | String  | YES  | --   |
-| color  | Color  | YES  | --   |
-| textColor  | Color  | YES  | --   |
-| tabPadding  | EdgeInsets  | NO  | EdgeInsets.fromLTRB(10, 4, 10, 4)   |
-| customTextStyle  | TextStyle  | NO  | -- |
+| Property        | Type       | Required | Default Value                     |
+| --------------- | ---------- | -------- | --------------------------------- |
+| icon            | IconData   | YES      | --                                |
+| iconSize        | Int        | NO       | 20                                |
+| title           | String     | YES      | --                                |
+| color           | Color      | YES      | --                                |
+| textColor       | Color      | YES      | --                                |
+| tabPadding      | EdgeInsets | NO       | EdgeInsets.fromLTRB(10, 4, 10, 4) |
+| customTextStyle | TextStyle  | NO       | --                                |
